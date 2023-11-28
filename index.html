@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Website Design HTML CSS | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#"><span class="typing"></span></a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">Quem Sou</a></li>
+          <li><a href="#services">Suporte</a></li>
+          <li><a href="#">Conteúdo</a></li>
+          <li><a href="#contact">Feedback</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="img"></div>
+    <section  class="home" id="home">
+      <div class="center">
+        <div class="title">A maneira simples de aprender</div>
+        <div class="sub_title">sinuca</div>
+        <div class="btns">
+          <a href="Sinuca.html" target="_blank"><button>Jogar</button></a>
+        </div>
+    </section>
+    </div>
+        <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre mim</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="quemeusou.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Esse sou eu, um: <span class="typing-2"></span></div>
+                    <p>Olá! Sou um apaixonado por sinuca e especialista em ensinar as pessoas a se tornarem jogadoras de sinuca de alto nível. Com mais de 10 anos, adquiri um vasto conhecimento sobre as técnicas e estratégias necessárias para se destacar nesse esporte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- services section start -->
+        <section class="services" id="services">
+          <div class="max-width">
+              <h2 class="title">Vai ficar de fora?
+                Venha aprender a jogar sinuca e ganhar
+                um dos melhores salarios do Brasil</h2>
+              <div class="serv-content">
+                  <div class="card">
+                      <div class="box">
+                        <i class="fa-solid fa-infinity" style="color: #ff0000;"></i>
+                          <div class="text">Acesso vitalício</div>
+                          <p>Você tem acesso a todas
+                            as atualizações e para sempre
+                            (sem pagar).</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="box">
+                          <i class="fa-solid fa-phone" style="color: #ff0000;"></i>
+                          <div class="text">Suporte</div>
+                          <p>Você estará com um time
+                            que lhe auxiliara
+                            em qualquer dúvida.</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="box">
+                          <i class="fa-solid fa-book" style="color: #ff0000;"></i>
+                          <div class="text">Conteúdos</div>
+                          <p>O conteúdo mais completo
+                            que você pode encontrar.</p>
+                      </div>
+                  </div>
+                 </div>
+              </div>
+          </div>
+      </section>
+
+         <!-- contact section start -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+          <h2 class="title">Feedback</h2>
+          <div class="contact-content">
+              <div class="column left">
+                  <div class="text">Gostou do conteúdo?</div>
+                  <p>Deixe aqui seu Feedback.</p>
+                  <div class="icons">
+                      <div class="row">
+                          <i class="fas fa-user"></i>
+                          <div class="info">
+                              <div class="head">Nome</div>
+                              <div class="sub-title">Fulano de tal</div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="info">
+                              <div class="head">Endereço</div>
+                              <div class="sub-title">NW6 5ED Maida Vale, Londres, Reino Unido</div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <i class="fas fa-envelope"></i>
+                          <div class="info">
+                              <div class="head">Email</div>
+                              <div class="sub-title">FulanoDeTal@gmail.com</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="column right">
+                  <div class="text">Deixe sua mensagem</div>
+                  <form action="#">
+                      <div class="fields">
+                          <div class="field name">
+                              <input type="text" placeholder="Nome" required>
+                          </div>
+                          <div class="field email">
+                              <input type="email" placeholder="Seu melhor E-mail" required>
+                          </div>
+                      </div>
+                      <div class="field">
+                          <input type="text" placeholder="Assunto" required>
+                      </div>
+                      <div class="field textarea">
+                          <textarea cols="30" rows="10" placeholder="Messagem.." required></textarea>
+                      </div>
+                      <div class="button-area">
+                          <button type="submit">Enviar mensagem</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+          <!-- footer section start -->
+    <footer>
+      <span>Criado por <a href="https://github.com/Reichertt" target="_blank">Vitor Reichert Goncalves</a> | <span class="far fa-copyright"></span> 2023 Todos os direitos reservados.</span>
+  </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cf8706094d.js" crossorigin="anonymous"></script>
+  </body>
+</html>
